@@ -1,0 +1,39 @@
+*{box-sizing: border-box;}
+
+body {
+    margin: 0; 
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.header {
+    padding: 20px 0;
+    width: 100%;
+    color: aquamarine;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background-color: blueviolet;
+}
+
+
+.main {
+    width: 96%;
+    margin: 50px auto;
+}
+
+.section {
+    margin: 0 auto;
+}
+
+#snakeboard {
+    margin-top: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#score {
+    margin: 0;
+    font-size: 70px;
+}
